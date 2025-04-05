@@ -25,7 +25,6 @@ app.get('/', (request, response) => {   // params string - routename, ( )=> call
     //console.log(request)
     response.status(234).send("Welcome to MERN Stack - Bookstore App");
 })
-
  
 mongoose.connect(mongo_connection)
     .then(() => {
